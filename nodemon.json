@@ -1,0 +1,15 @@
+{
+    "watch": [
+        "src"
+    ],
+    "ext": "ts,json",
+    "ignore": [
+        "src/**/*.spec.ts",
+        "dist"
+    ],
+    "env": {
+        "NODE_ENV": "development",
+        "PORT": 4000
+    },
+    "exec": "npx ts-node -r dotenv/config src/app.ts"
+}
