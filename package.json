@@ -1,0 +1,35 @@
+{
+  "name": "real-estate-api",
+  "version": "1.0.0",
+  "description": "This is an API for a real estate platform",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeekyGeeky/real-estate-api.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "prisma",
+    "express"
+  ],
+  "author": "GeekyGeeky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeekyGeeky/real-estate-api/issues"
+  },
+  "homepage": "https://github.com/GeekyGeeky/real-estate-api#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.26",
+    "prisma": "^3.12.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "helmet": "^5.0.2"
+  }
+}
